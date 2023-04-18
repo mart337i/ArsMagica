@@ -18,5 +18,15 @@ namespace ArsMagicaTest
             
             Assert.AreNotEqual(enemyHealth, enemy.health);
         }
+        
+        [TestMethod]
+        public void CreatingPlayer()
+        {
+            Player testPlayer = new Player();
+
+            Assert.IsNotNull(testPlayer);
+            Assert.IsNotNull(testPlayer.Weapon);
+            Assert.IsNotNull(testPlayer.Armor);
+        }
     }
 }
