@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace ArsMagica
 {
-    internal class Player
+    public class Player
     {
+        public int health;
+
+        public Player()
+        {
+            health = 100;
+        }
+
+        public int attack(Weapon web)
+        {
+            return 0;
+        }
+        
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EvFeCDmctK0d7KfA0Hjs3WO1JDlfZZkUMayeMXFpEw4ZrH0EeSxGSovk2UFCWcR8ovfPA/e2QNK5Tp7rRaogjA==",
+  "dgSpecHash": "vmHb0j4SxmYaMPUBkfU6ROZrb/jn4Q6mODLNrzNacg3vcu+maQxDosoz+XEaw8q70fhELd+JOKhqSYvKqnU1wQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mart3\\source\\repos\\ArsMagicaTest\\ArsMagicaTest.csproj",
+  "projectFilePath": "C:\\Users\\mart3\\RiderProjects\\ArsMagica\\ArsMagicaTest\\ArsMagicaTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mart3\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\mart3\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
