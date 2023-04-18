@@ -9,16 +9,21 @@ namespace ArsMagica
     public class Player
     {
         public int health;
+        public Weapon Weapon;
 
         public Player()
         {
             health = 100;
         }
 
-        public int attack(Weapon web)
+        public void Attack(Player enemy)
         {
-            return 0;
+            enemy.health -= Weapon.damage; ;
         }
-        
+
+        public void EquipWeapon(Weapon weapon)
+        {
+            Weapon = weapon;
+        }
     }
 }

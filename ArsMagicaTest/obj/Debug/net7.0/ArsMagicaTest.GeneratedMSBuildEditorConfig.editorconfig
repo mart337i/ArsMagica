@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ArsMagicaTest
-build_property.ProjectDir = C:\Users\mart3\RiderProjects\ArsMagica\ArsMagicaTest\
+build_property.ProjectDir = /Users/sebastian/Projects/ArsMagica/ArsMagicaTest/

@@ -5,16 +5,18 @@ namespace ArsMagicaTest
     public class UnitTest1
     {
         [TestMethod]
-        public void attacking_test()
+        public void AttackingTest()
         {
-            Player testplayer = new Player();
+            Player testPlayer = new Player();
             Player enemy = new Player();
+            Weapon weapon = new Weapon(10);
+            testPlayer.EquipWeapon(weapon);
 
-            int enemy_healt = enemy.health;
+            int enemyHealth = enemy.health;
 
-            testplayer.attack(weapon, enemy);
+            testPlayer.Attack(enemy);
             
-            Assert.AreNotEqual(enemy_healt, enemy.health);
+            Assert.AreNotEqual(enemyHealth, enemy.health);
         }
     }
 }
