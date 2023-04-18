@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ArsMagica
 {
-    internal class Armor
+    public class Armor
     {
+        public int armor_value = 100;
+        
     }
 }

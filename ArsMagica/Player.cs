@@ -10,6 +10,7 @@ namespace ArsMagica
     {
         public int health;
         public Weapon Weapon;
+        public Armor Armor;
 
         public Player()
         {
@@ -24,6 +25,11 @@ namespace ArsMagica
         public void EquipWeapon(Weapon weapon)
         {
             Weapon = weapon;
+        }
+        
+        public void EquipArmor(Armor armor)
+        {
+            armor = armor;
         }
     }
 }
